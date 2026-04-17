@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Page</title>
+
+    <style>
+        body {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-family: Arial;
+        }
+        
+
+        h1 {
+            color: gold;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: gold;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+    <style>
+    body {
+        background-color: blue;
+        color: white;
+        text-align: center;
+        font-family: Arial;
+    }
+    h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+    h1 {
+        color: gold;
+    }
+
+    .container {
+        margin-top: 100px;
+    }
+
+    button {
+        padding: 12px 25px;
+        margin: 10px;
+        font-size: 16px;
+        background-color: gold;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+  
+    img {
+    border-radius: 50%;
+    margin: 15px 0;
+}
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+button {
+    margin: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+    <html>
+<head>
+    <!-- your title + style stays here -->
+</head>
+
+<body>
+
+  
+<h3>Welcome to My First Web App 🚀</h3>
+        <h1>future developer</h1>
+
+        <p>I am learning coding and becoming a developer 🚀</p>
+
+        <img src="https://picsum.photos/150" alt="My Image">
+
+        <h2 id="message">Click the button to get motivation 💡</h2>
+        <input type="text" id="username" placeholder="Enter your name">
+<br><br>
+        <button onclick="greetUser()">Greet Me</button>
+
+        <button onclick="showMessage()">Motivate Me</button>
+
+        <button onclick="changeColor()">Change Theme</button>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            let messages = [
+                "You will succeed 🔥",
+                "Keep pushing forward 💪",
+                "Your future is bright ✨"
+            ];
+
+            let random = Math.floor(Math.random() * messages.length);
+
+            document.getElementById("message").innerText = messages[random];
+        }
+
+        function changeColor() {
+            let colors = ["blue", "black", "purple", "green", "red", "orange"];
+
+            let random = Math.floor(Math.random() * colors.length);
+
+            document.body.style.backgroundColor = colors[random];length
+        }
+  
+          
+    
+    function greetUser() {
+    let name = document.getElementById("username").value;
+
+    if (name === "") {
+        alert("Please enter your name!");
+    } else {
+        document.getElementById("message").innerText =
+            "Welcome " + name + "! Your future is bright 🚀";
+    }
+}
+
+            
+    </script>
+
+</body>
+</html>
+
+          
+          
+        
+        
+          
+      
+        
+    </script>
+
+</body>
+</html>
